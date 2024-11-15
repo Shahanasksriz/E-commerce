@@ -1,0 +1,11 @@
+var a=10;
+var b=2;
+var temp;
+console.log("a =",a);
+console.log("b=",b);
+temp=a;
+a=b;
+b=temp;
+console.log("afer swaping");
+console.log("a =",a);
+console.log("b=",b);

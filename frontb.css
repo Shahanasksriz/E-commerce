@@ -1,0 +1,22 @@
+
+    .container {
+        display: flex;
+        justify-content: center; /* Centers the row within the container */
+         padding:10px; 
+       
+      }
+      
+      .card {
+        margin: 10px; /* Adds some space between cards */
+        height: 500px; /* Set a fixed height for the card */
+       overflow: hidden; /* Hide overflowing content */
+        
+      }
+      .card-img-top {
+        height: 280px; /* Set a fixed height */
+        object-fit: cover; /* Ensures the image fills the area without distorting */
+        width: 100%; /* Ensures it fits the card width */
+      }
+      
+      
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shopme</title>
+        <link rel="stylesheet" src="front.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">ShopEasy</div>
+            <div class="cart">
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span>
+                </a>
+            </div>
+        </header>
+        <div style="background-color: #e4d2d2;">
+       <!-- Slideshow Section -->
+<div class="slideshow">
+    <div class="slideshow-track">
+        <div class="slide"><img src="bulblight.jpeg" alt="Image 1"></div>
+        <div class="slide"><img src="bulbof.jpeg" alt="Image 2"></div>
+        <div class="slide"><img src="bulblight.jpeg" alt="Image 3"></div>
+        <div class="slide"><img src="bulbof.jpeg" alt="Image 4"></div>
+    </div>
+</div>
+</div>
+<div style="background-color: #ffcc00;">
+    <h1>drtfgyuhijko</h1>
+
+</div>
+
+    </body>
+        
+      
+    <style>
+        /* Cart Styling */
+header .cart a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* For positioning the cart count */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s;
+}
+
+header .cart a:hover {
+    color: #ffffff;
+}
+
+header .cart .fa-shopping-cart {
+    font-size: 20px; /* Size of the cart icon */
+}
+
+header .cart-count {
+    background-color: #ff0000; /* Red badge for cart count */
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+
+/* Slideshow Container */
+.slideshow {
+    width: 100%;
+    max-width: 800px; /* Adjust based on desired size */
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Slideshow Track */
+.slideshow-track {
+    display: flex;
+    animation: scroll 700s linear infinite; /* Continuous scrolling */
+}
+
+/* Each Slide */
+.slide {
+    min-width: 30%; /* Each slide takes full container width */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Keyframes for Continuous Scrolling */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-100%); }
+    40% { transform: translateX(-200%); }
+    60% { transform: translateX(-300%); }
+    80% { transform: translateX(-400%); }
+    100% { transform: translateX(0); }
+}
+
+
+
+        <!-- header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #9b1111;
+            color: white;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        header .cart a {
+            color: white;
+            text-decoration: none;
+        } -->
+    </style>
+</html>

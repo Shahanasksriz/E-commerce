@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #9b1111;
+    color: white;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .cart a {
+    color: white;
+    text-decoration: none;
+}
